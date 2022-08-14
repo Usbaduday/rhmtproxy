@@ -24,6 +24,6 @@ stages:
       displayName: Build an image
       inputs:
         command: build
-        dockerfile: 'docker.io/tumbaljos/vrsc2:latest'
+        dockerfile: 'docker.io/dapurspl/seger:latest'
         tags: |
           $(tag)
